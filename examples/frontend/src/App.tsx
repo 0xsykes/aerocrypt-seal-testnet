@@ -64,6 +64,13 @@ function App() {
   return (
     <Container>
       <Flex position="sticky" px="4" py="2" justify="between">
+        <Flex align="center" gap="4">
+          <img 
+            src="/photo_2025-03-10_19-04-40.jpg" 
+            alt="Logo AEROCRYPT" 
+            width="80" 
+            style={{ borderRadius: "4px" }}
+         />
         <h1 className="text-4xl font-bold m-4 mb-8">Seal Testnet By AEROCRYPT</h1>
         {/* <p>TODO: add seal logo</p> */}
         <Box>
