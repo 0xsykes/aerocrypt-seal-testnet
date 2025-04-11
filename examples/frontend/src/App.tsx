@@ -67,14 +67,7 @@ function App() {
        <Flex align="center" gap="3">
           <img src="/photo_2025-03-10_19-04-40.jpg" alt="AEROCRYPT Logo" width="60" style={{ borderRadius: '8px' }} />
         <h1 className="text-4xl font-bold m-4 mb-8">Seal Testnet By AEROCRYPT</h1>
-         <Flex direction="column" align="center" my="4">
-           <img src="/photo_2025-03-10_19-04-40.jpg" alt="AEROCRYPT Banner"
-            style={{
-            width: 'min(100%, 800px)',
-            height: 'auto',
-            borderRadius: '12px',
-            margin: '2rem 0' }} />
-      </Flex>
+         <Flex>
         {/* <p>TODO: add seal logo</p> */}
          </Flex>
         <Box>
@@ -99,6 +92,16 @@ function App() {
           purposes only!
         </p>
       </Card>
+       <Flex justify="center" my="4" style={{ marginTop: '1rem' }}>
+        <img
+          src="/photo_2025-03-10_19-04-40.jpg"
+          alt="AEROCRYPT Banner"
+          style={{
+            width: 'min(70%, 500px)', 
+            height: 'auto',
+            borderRadius: '8px',
+            marginBottom: '2rem' }} />
+      </Flex>
       {currentAccount ? (
         <BrowserRouter>
           <Routes>
