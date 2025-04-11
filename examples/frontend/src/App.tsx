@@ -66,8 +66,8 @@ function App() {
      <Flex position="sticky" px="4" py="2" justify="between" align="center" gap="2">
        <Flex align="center" gap="3">
           <img src="/photo_2025-03-10_19-04-40.jpg" alt="AEROCRYPT Logo" width="60" style={{ borderRadius: '8px' }} />
+         </Flex>
         <h1 className="text-4xl font-bold m-4 mb-8">Seal Testnet By AEROCRYPT</h1>
-         <Flex>
         {/* <p>TODO: add seal logo</p> */}
          </Flex>
         <Box>
